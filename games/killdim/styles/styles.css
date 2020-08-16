@@ -1,0 +1,76 @@
+/* 
+    Color scheme
+
+    light: #ccbbaa;
+    dark: #332211;
+    reds: #771111;
+    blue: #445566;
+    green #888866;
+
+*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+            font-family: "Arian AMU", "Arial", sans-serif;
+            background: #888866;
+            color: #332211;
+        }
+        
+        h1 {
+            margin: 10px 0;
+        }
+
+        .container {
+            position: relative;
+            width: 700px;
+            margin: 0 auto;
+        }
+        
+        #playarea {
+            background: url("../images/map.jpg") center top no-repeat;
+            margin: 0 auto;
+            width: 700px;
+            height: 500px;
+        }
+        
+        #diversant {
+            width: 100px;
+            height: 100px;
+            background: red;
+            display: none;
+            position: relative;
+            background: url("../images/killdim_icon.jpg") center top no-repeat;
+            border: 1px black solid;
+            border-radius: 50px;
+            cursor: url('../images/murch.gif'), auto;
+        }
+        
+        .bold {
+            font-weight: bold;
+        }
+        
+        #time {
+            color: #771111;
+        }
+        
+        #score {
+            color: #771111;
+        }
+
+        #medals {
+            width: 700px;
+            height: 20px;
+            margin: 5px auto;
+            padding: 10px 0;
+            font-size: 18px;
+            font-weight: bold;
+            background: #ccbbaa;
+           
+            text-align: center;
+            vertical-align: center;
+        }

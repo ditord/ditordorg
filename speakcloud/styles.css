@@ -1,0 +1,186 @@
+/* Speakcloud CSS
+
+	Developed by Artur Papyan
+	January 2016
+
+	Theme colors
+	
+	White: #ffffff;
+	Dark: #333333;
+	Red: #ff6666;
+*/
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #333; 
+	color: #fff;
+}
+
+#container {
+	width: 1300px;
+	margin: 0 auto;
+	background: url('images/banner_photo.jpg') top center no-repeat;
+	-webkit-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.75);
+}
+
+#banner {
+	position: relative;
+	height: 860px;
+}
+
+#nav {
+	padding: 50px 80px 100px 64px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#home {
+	float: left;
+}
+
+#nav ul {
+	list-style: none;
+}
+
+#nav li {
+	display: inline-block;
+	float: right;
+	padding: 0 10px;
+	text-transform: uppercase;
+}
+
+a:link {
+	color: white;
+	text-decoration: none;
+}
+
+a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: white;
+	text-decoration: underline;
+}
+
+
+.clear {
+	clear: both;
+}
+
+#iphone {
+	float: right;
+	padding-right: 55px;
+
+}
+
+#appstorepricing {
+	padding: 64px;
+}
+
+#appstorepricing h1 {
+	padding-top: 145px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 50px;
+	font-weight: bold;
+	margin-bottom: 32px;
+}
+
+#appstorepricing p {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 22px;
+	margin-bottom: 32px;	
+}
+
+#mouse {
+	position: absolute;
+	left: 50%;
+	bottom: 20px;
+}
+
+#features {
+	background: #ebeeef;
+	color: #333;
+	height: 510px;
+	padding: 130px 180px;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+#microphone {
+	float: left;
+	padding: 50px 80px 0 20px;
+}
+
+#features_right {
+	text-align: right;
+}
+
+h2 {
+	font-size: 40px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+#features p {
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+hr {
+	margin: 40px 0;
+}
+
+#dropbox {
+	float: right;
+	padding: 50px 20px 0px 80px;
+}
+
+#footer {
+	padding: 80px 180px;
+	height: 300px;
+	background: #333;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+#appstoregrey {
+	float: right;
+}
+
+#footer h2 {
+	font-size: 40px;
+	margin-bottom: 10px;
+}
+
+#sync {
+	padding-bottom: 200px;
+}
+
+#contact {
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+#contact a:link {
+	color: #ff6666;
+}
+
+#contact a:visited {
+	color: #ff6666;
+}
+
+#contact a:hover {
+	color: white;
+}
+
+#copyright {
+	text-align: center;
+}

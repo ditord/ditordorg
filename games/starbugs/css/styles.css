@@ -1,0 +1,77 @@
+body {
+	background-color: black;
+	color: #333;
+}
+
+.container {
+	width: 800px;
+	margin: 0 auto;
+}
+
+
+h1 {
+	font-family: "Arial Rounded MT Bold","Helvetica Rounded",Arial,sans-serif;
+	color: #ff9900;
+}
+
+p {
+	font-family: "Arial Narrow",Arial,sans-serif;
+	color: #ffe0b3;
+}
+
+
+#playground {
+	position: relative;
+	width: 800px;
+	height: 800px;
+	background-image: url("../images/playground.jpg");
+
+}
+
+#score {
+
+}
+
+#hearts {
+
+}
+
+#notifications {
+
+}
+
+#spaceship {
+	position: relative;
+	width: 150px;
+	height: 130px;
+	background-image: url("../images/spaceship.png");
+	top: 500px;
+	left: 350px;
+}
+
+#bullet {
+	position: relative;
+	width: 8px;
+	height: 8px;
+	background-color: #ff9900;
+	border-radius: 5px;
+	border: 1px solid #ff9900;
+	top: 270px;
+	left: 395px;
+
+}
+
+#bug {
+	width: 118px;
+	height: 89px;
+	background-image: url("../images/starbug.png");
+}
+
+footer {
+	width: 800px;
+	margin: 0 auto;
+	text-align: right;
+	padding: 40px;
+	font-size: 12px;
+}
+
